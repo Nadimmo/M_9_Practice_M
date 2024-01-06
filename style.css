@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(252, 249, 245);
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header .text{
+    margin-left: 60%;
+    margin-right: 10%;
+    padding-top: 15%;
+    text-align: right;
+}
+header h1, section h1{
+    font-size: 42px;
+    font-weight: 800;
+}
+#btn{
+    font-size: 20px;
+    color: black;
+    background-color: tomato;
+    padding: 8px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.section1 .text2{
+    margin-left: 60%;
+    margin-right: 10%;
+    padding-top: 15%;
+    text-align: left;
+}
+.section1{
+    background-image: url(images/person.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin: 10% 100px 100px;
+}
+.section1 ol li,p{
+    font-size: 14px;
+}
+
+.section2 .items{
+    display: flex;
+    margin: 5% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 .item{
+    text-align: center;
+}
+.section2 h1{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+.section2 .img img{
+    width: 80%;
+    height: 260px;
+    margin-left: 10%;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border: 1px solid rgb(247, 148, 130);
+    border-radius: 10px;
+}
+.section2 .up{
+    position: relative;
+    color: white;
+    top: 100px;
+    margin-right: 200px;
+}
+
+.section2 .up .btn{
+    font-size: 20px;
+    color: tomato;
+    background-color: white;
+    padding:10px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+footer{
+    background-color: #000;
+    margin-top: 300px;
+    color: white;
+    display: flex;
+    height: 400px;
+}
+.subscribe .btn{
+    font-size: 22px;
+    color: tomato;
+    background-color: white;
+    padding:10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+.future{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.subscribe{
+    margin-right: 80px;
+    margin-top: 60px;
+}
+.future h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+.future p{
+    width: 60%;
+    font-size: 16px;
+    color: #d6d5d5;
+}
+.future .icon img{
+    padding-left: 5px;
+}
+.subscribe label{
+    font-size: 36px;
+    font-weight: 700;
+}
+.subscribe input{
+    font-size: 24px;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
